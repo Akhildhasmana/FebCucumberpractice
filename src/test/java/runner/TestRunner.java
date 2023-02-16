@@ -19,8 +19,7 @@ import org.junit.runner.RunWith;
         ,dryRun=false
         ,monochrome=true
         ,publish=true
-        ,tags = "@ScreenshotCapture"
-)
+        ,tags = "@ScreenshotCapture")
 
 public class TestRunner {
 
