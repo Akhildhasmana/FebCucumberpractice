@@ -1,5 +1,5 @@
 package Practice;
-//make changes for commit and push 
+//make changes for commit and push test
 import java.time.Duration;
 import java.util.List;
 
