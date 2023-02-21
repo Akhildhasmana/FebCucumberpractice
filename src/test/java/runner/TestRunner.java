@@ -1,36 +1,34 @@
-package runner;
+package Runner;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-import io.cucumber.junit.CucumberOptions.SnippetType;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+
+
+
+import stepdefinitions.BaseTest;
+
+import java.io.IOException;
+
 import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+//test
+
 @CucumberOptions(
-        plugin = {"pretty"
-                , "html:target/cucumber"
-                , "summary"
-                , "me.jvt.cucumber.report.PrettyReports:target/Reports/cucumber-html-reports"}
-        ,features = {"src/test/resources/features"}
-        ,glue = {"stepdefinitions"}
-        ,snippets = SnippetType.CAMELCASE
-        ,dryRun=false
-        ,monochrome=true
-        ,publish=true
-        ,tags = "@ScreenshotCapture"
-)
+		
+		features = {"F:\\FEB2\\src\\test\\resources\\features"},
+		glue="stepdefinitions",
+		dryRun = false,
+		monochrome = true,
+		tags="@bookonline",//scenarios under @sanity tag will be executed
+		plugin = {"pretty","html:target/cucumber-reports/reports_html.html"}
+		
+		)
 
-public class TestRunner {
 
-    @BeforeClass
-    public static void initialize() {
-        //The code here will be executed once and before all tests in the class.
-    }
+public class TestRunner extends AbstractTestNGCucumberTests {
+      
 
-    @AfterClass
-    public static void quit(){
-        //The code here will be executed once and after all tests in the class.
-    }
+
 }

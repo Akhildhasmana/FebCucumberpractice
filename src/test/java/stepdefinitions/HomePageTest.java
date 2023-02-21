@@ -35,14 +35,7 @@ public class HomePageTest extends BaseTest {
     public HomePageTest() {
         this.driver = super.driver;
         
-//		System.out.println("this is logger demo.");
-//		
-//		log.info("for info only");
-//		log.fatal("fatal msg");
-//
-//		log.debug("for debug");
-//		log.error("error message");
-//		log.warn("warning message");
+
     }
 
     @Given("^(I am at home page|I land to home page)$")
