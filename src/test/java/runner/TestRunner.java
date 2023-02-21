@@ -21,10 +21,10 @@ import io.cucumber.testng.CucumberOptions;
         features = {"F:\\FEB2\\src\\test\\resources\\features"}
         ,glue = {"stepdefinitions"}
      
-        ,dryRun=true
+        ,dryRun=false
         ,monochrome=true
         ,publish=true
-        ,tags = "@smoke")
+        ,tags = "@ui")
 
 
 public class TestRunner extends AbstractTestNGCucumberTests {
