@@ -10,7 +10,7 @@ public class BaseTest {
      protected WebDriver driver;
 
     public BaseTest() {
-        this.driver = DriverManager.getDriver("Edge");
+        this.driver = DriverManager.getDriver("Chrome");
     }
 
 }
