@@ -16,15 +16,15 @@ import io.cucumber.testng.CucumberOptions;
 //test
 
 @CucumberOptions(
-		
-		features = {"F:\\FEB2\\src\\test\\resources\\features"},
-		glue="stepdefinitions",
-		dryRun = false,
-		monochrome = true,
-		tags="@bookonline",//scenarios under @sanity tag will be executed
-		plugin = {"pretty","html:target/cucumber-reports/reports_html.html"}
-		
-		)
+
+        
+        features = {"F:\\FEB2\\src\\test\\resources\\features"}
+        ,glue = {"stepdefinitions"}
+     
+        ,dryRun=true
+        ,monochrome=true
+        ,publish=true
+        ,tags = "@smoke")
 
 
 public class TestRunner extends AbstractTestNGCucumberTests {
