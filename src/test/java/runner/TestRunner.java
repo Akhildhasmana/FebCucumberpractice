@@ -22,7 +22,7 @@ import io.cucumber.testng.CucumberOptions;
         ,glue = {"stepdefinitions"}
      
         ,dryRun=false
-        ,monochrome=true
+        ,monochrome=false
         ,publish=false
         ,tags="@ui or @bookonline or @promptalert or  @shop_parts"
         )
