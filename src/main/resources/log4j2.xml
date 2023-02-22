@@ -14,7 +14,7 @@
 
 
 	<Loggers>
-		<Root level="all">
+		<Root level="off">
 			<AppenderRef ref="file" />
 		</Root>
 	</Loggers>

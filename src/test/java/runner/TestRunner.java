@@ -21,7 +21,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"F:\\FEB2\\src\\test\\resources\\features"}
         ,glue = {"stepdefinitions"}
      
-        ,dryRun=false
+        ,dryRun=true
         ,monochrome=true
         ,publish=true
         ,tags = "@ui")
