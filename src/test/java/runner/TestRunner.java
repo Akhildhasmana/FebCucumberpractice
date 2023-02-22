@@ -23,7 +23,7 @@ import io.cucumber.testng.CucumberOptions;
      
         ,dryRun=false
         ,monochrome=false
-        ,publish=false
+        ,publish=true
         ,tags="@ui or @bookonline or @promptalert or  @shop_parts"
         )
 
