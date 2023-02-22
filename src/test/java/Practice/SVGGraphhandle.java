@@ -18,7 +18,7 @@ public class SVGGraphhandle {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://emicalculator.net/");
-		Thread.sleep(500);
+		
 		String verticalXpath="//*[local-name()='svg']//*[name()='g' and @class='highcharts-series-group']//*[name()='rect']";
 		String textXPath="//*[local-name()='svg']//*[name()='g'and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']";
 		List<WebElement>barslist=driver.findElements(By.xpath(verticalXpath)); 
@@ -26,9 +26,9 @@ public class SVGGraphhandle {
 		
 		Actions act=new Actions(driver); 
 		for(WebElement e:barslist) {
-			act.moveToElement(e).build().perform();
+			act.moveToElement(e).perform();
 		
-			//Thread.sleep(200);
+			
 		String text=driver.findElement(By.xpath(textXPath)).getText();
 	
 				System.out.println(text);

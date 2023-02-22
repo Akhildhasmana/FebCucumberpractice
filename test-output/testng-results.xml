@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T14:39:31 IST" name="Default suite" finished-at="2023-02-21T14:39:40 IST" duration-ms="8496">
+  <suite started-at="2023-02-21T15:07:18 IST" name="Default suite" finished-at="2023-02-21T15:07:26 IST" duration-ms="7481">
     <groups>
     </groups>
-    <test started-at="2023-02-21T14:39:31 IST" name="Default test" finished-at="2023-02-21T14:39:40 IST" duration-ms="8496">
+    <test started-at="2023-02-21T15:07:18 IST" name="Default test" finished-at="2023-02-21T15:07:26 IST" duration-ms="7481">
       <class name="Practice.SVGGraphhandle">
-        <test-method signature="performAction()[pri:0, instance:Practice.SVGGraphhandle@515aebb0]" started-at="2023-02-21T14:39:31 IST" name="performAction" finished-at="2023-02-21T14:39:40 IST" duration-ms="8422" status="FAIL">
+        <test-method signature="performAction()[pri:0, instance:Practice.SVGGraphhandle@515aebb0]" started-at="2023-02-21T15:07:18 IST" name="performAction" finished-at="2023-02-21T15:07:25 IST" duration-ms="7373" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[local-name()='svg']//*[name()='g'and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']"}
@@ -16,9 +16,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
 System info: host: 'DESKTOP-C5DCEJT', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fff79ec5c01408451c08b672c8176b3d, findElement {using=xpath, value=//*[local-name()='svg']//*[name()='g'and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKHILD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54249/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fff79ec5c01408451c08b672c8176b3d]]>
+Command: [937059571ab08b5f3dc2f275df17b9f0, findElement {using=xpath, value=//*[local-name()='svg']//*[name()='g'and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKHILD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56408/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 937059571ab08b5f3dc2f275df17b9f0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[local-name()='svg']//*[name()='g'and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']"}
@@ -27,9 +27,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
 System info: host: 'DESKTOP-C5DCEJT', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fff79ec5c01408451c08b672c8176b3d, findElement {using=xpath, value=//*[local-name()='svg']//*[name()='g'and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKHILD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54249/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fff79ec5c01408451c08b672c8176b3d
+Command: [937059571ab08b5f3dc2f275df17b9f0, findElement {using=xpath, value=//*[local-name()='svg']//*[name()='g'and @class='highcharts-label highcharts-tooltip highcharts-color-undefined']//*[name()='text']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\AKHILD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56408}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56408/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 937059571ab08b5f3dc2f275df17b9f0
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
