@@ -2,33 +2,26 @@ package Runner;
 
 
 
-
-import stepdefinitions.BaseTest;
-
-import java.io.IOException;
-
 import org.junit.runner.RunWith;
+import java.io.IOException;
+import io.cucumber.junit.Cucumber;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.testng.CucumberOptions;
-//test
 
+@RunWith(Cucumber.class)
 @CucumberOptions(
-
-        
-        features = {"F:\\FEB2\\src\\test\\resources\\features"}
+  features = {"F:\\FEB2\\src\\test\\resources\\features\\"}
         ,glue = {"stepdefinitions"}
      
         ,dryRun=false
-        ,monochrome=false
+        ,monochrome=true
         ,publish=true
-        ,tags="@ui or @bookonline or @promptalert or  @shop_parts"
+        ,tags="@Registration"
         )
 
 
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner  extends AbstractTestNGCucumberTests{
       
 
 
