@@ -13,7 +13,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
   features = {"F:\\FEB2\\src\\test\\resources\\features\\"}
         ,glue = {"stepdefinitions"}
-     
+        ,plugin = {"pretty","html:target/cucumber-reports/reports1.html"}
         ,dryRun=false
         ,monochrome=true
         ,publish=true
